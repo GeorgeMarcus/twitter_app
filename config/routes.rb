@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   root 'application#helloblabla'
 
   get 'alta_ruta', to: 'application#alta_ruta'
+  
+  get 'create_user', to: 'application#create_user'
 end
